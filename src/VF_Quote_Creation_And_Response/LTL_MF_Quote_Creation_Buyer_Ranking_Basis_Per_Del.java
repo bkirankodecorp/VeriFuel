@@ -89,6 +89,7 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 
+		
 		try {
 
 			if (driver.findElement(By.name("Username")).isDisplayed()) {
@@ -103,6 +104,8 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del {
 				test1.log(Status.FAIL, "Page is not navigated to \n" + Url);
 
 			}
+			
+			
 
 		} catch (Exception e) {
 
@@ -1226,7 +1229,7 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del {
 	@AfterTest
 	public void teardowntest(){
 
-		driver.close();
+		//driver.close();
 
 	}
 

@@ -41,7 +41,7 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Gal {
 	@BeforeSuite
 	public void setUp(){
 
-		htmlReporter= new ExtentHtmlReporter("../Veri-Fuel_Hybrid_Framework/LTL Mobile Fueling/LTL_Quote_Buyer_Creation__Ranking_Basis_$_Per_Gal.html");
+		htmlReporter= new ExtentHtmlReporter("../VF_Test/LTL Mobile Fueling/LTL_Quote_Buyer_Creation__Ranking_Basis_$_Per_Gal.html");
 
 		// create ExtentReports and attach reporter(s)
 		extent = new ExtentReports();
