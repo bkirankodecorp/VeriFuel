@@ -41,7 +41,7 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del {
 	@BeforeSuite
 	public void setUp(){
 
-		htmlReporter= new ExtentHtmlReporter("../Veri-Fuel_Hybrid_Framework/LTL Mobile Fueling/LTL_Quote_Buyer_Creation__Ranking_Basis_$_Per_Del.html");
+		htmlReporter= new ExtentHtmlReporter("LTL_Quote_Buyer_Creation__Ranking_Basis_$_Per_Del.html");
 
 		// create ExtentReports and attach reporter(s)
 		extent = new ExtentReports();
@@ -55,7 +55,7 @@ public class LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del {
 	public void setUptest(){
 
 		System.setProperty("webdriver.chrome.driver",
-				"../Veri-Fuel_Hybrid_Framework/Resources/chromedriver.exe");
+				"../VF_Test/Resources/chromedriver.exe");
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("chrome.switches","--disable-extensions");

@@ -8,7 +8,7 @@
 				name="VF_Quote_Creation_And_Response.LTL_MF_Quote_Creation_Buyer_Ranking_Basis_Per_Del" />
 		</classes>
 	</test>
-	<test name="Buyer LTL Mobile Fueling Seller Respone for $/Del">
+	<!-- <test name="Buyer LTL Mobile Fueling Seller Respone for $/Del">
 		<classes>
 			<class
 				name="VF_Quote_Creation_And_Response.LTL_MF_Quote_Seller_Response_Ranking_Basis_Per_Del" />
@@ -55,7 +55,7 @@
 			<class
 				name="VF_Quote_Creation_And_Response.LTL_MF_Quote_Buyer_Side_Verification_Ranking_Basis_Per_Period" />
 		</classes>
-	</test>
+	</test> -->
 </suite>
 
 
